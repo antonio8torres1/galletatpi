@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
->
-
-    <!-- Página Principal / Home -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://galletatpi.netlify.app/</loc>
-        <lastmod>2025-10-19T11:43:00-06:00</lastmod>
+        <lastmod>2025-10-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-
-        <!-- Alternativas de idioma -->
-        <xhtml:link
-            rel="alternate"
-            hreflang="es-sv"
-            href="https://galletatpi.netlify.app/"
-        />
-        <xhtml:link
-            rel="alternate"
-            hreflang="es"
-            href="https://galletatpi.netlify.app/"
-        />
-        <xhtml:link
-            rel="alternate"
-            hreflang="x-default"
-            href="https://galletatpi.netlify.app/"
-        />
-
-        <!-- Imágenes importantes para SEO -->
-        <image:image>
-            <image:loc>https://galletatpi.netlify.app/vite.svg</image:loc>
-            <image:title>Logo Galletatpi</image:title>
-        </image:image>
-
-        <!-- Mobile friendly indicator -->
-        <mobile:mobile />
     </url>
-
 </urlset>

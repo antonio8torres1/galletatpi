@@ -220,9 +220,14 @@ main {
 }
 
 .cookie-icon {
-    font-size: 6rem;
+    width: 120px;
+    height: 120px;
     display: block;
+    margin: 0 auto;
     animation: float 3s ease-in-out infinite;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 .cookie-instruction {
@@ -395,7 +400,8 @@ footer p {
     }
 
     .cookie-icon {
-        font-size: 4.5rem;
+        width: 90px;
+        height: 90px;
     }
 
     .info-section {

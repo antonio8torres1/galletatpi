@@ -20,7 +20,7 @@ document.querySelector("#app").innerHTML = `
     <section class="cookie-section">
       <div class="cookie-container">
         <button id="cookie-btn" type="button" aria-label="Hacer click en la galleta para ver mensaje de bienvenida" class="cookie-button">
-          <span class="cookie-icon">🍪</span>
+          <img src="/cookie.svg" alt="Galleta" class="cookie-icon" />
         </button>
         <p class="cookie-instruction">¡Haz click en la galleta de Galletatpi!</p>
       </div>
