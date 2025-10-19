@@ -1,11 +1,6 @@
-# robots.txt para Galletatpi
-# https://galletatpi.netlify.app
-
-# Permitir indexación completa
 User-agent: *
 Allow: /
 
-# Bloquear bots de SEO/Analytics que consumen recursos
 User-agent: AhrefsBot
 Disallow: /
 
@@ -21,5 +16,4 @@ Disallow: /
 User-agent: BLEXBot
 Disallow: /
 
-# Sitemap
 Sitemap: https://galletatpi.netlify.app/sitemap.xml

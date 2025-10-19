@@ -48,34 +48,25 @@ document.querySelector("#app").innerHTML = `
   </footer>
 `;
 
-// Configurar funcionalidad de la galleta
 const cookieBtn = document.querySelector("#cookie-btn");
 const messageDiv = document.querySelector("#message");
 let clickCount = 0;
 
 cookieBtn.addEventListener("click", () => {
   clickCount++;
-
-  // Añadir animación al botón
   cookieBtn.classList.add("clicked");
   setTimeout(() => cookieBtn.classList.remove("clicked"), 300);
-
-  // Mostrar mensaje
   messageDiv.textContent = "¡Bienvenido a la materia de TPI en la UES!";
   messageDiv.classList.add("show");
-
-  // Opcional: agregar contador de clicks con branding Galletatpi
   if (clickCount > 1) {
     messageDiv.textContent = `¡Bienvenido a la materia de TPI en la UES! (${clickCount} galletas de Galletatpi)`;
   }
 });
 
-// Efecto de partículas al mover el mouse
 let mouseX = 0;
 let mouseY = 0;
 let particles = [];
 
-// Crear elemento canvas para partículas
 const canvas = document.createElement("canvas");
 canvas.style.position = "fixed";
 canvas.style.top = "0";
@@ -90,13 +81,11 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// Actualizar tamaño del canvas al redimensionar
 window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
 
-// Clase para las partículas
 class Particle {
   constructor(x, y) {
     this.x = x;
@@ -122,36 +111,28 @@ class Particle {
   }
 }
 
-// Seguir el mouse
 document.addEventListener("mousemove", (e) => {
   mouseX = e.clientX;
   mouseY = e.clientY;
-
-  // Crear partículas ocasionalmente
   if (Math.random() < 0.1) {
     particles.push(new Particle(mouseX, mouseY));
   }
 });
 
-// Animar partículas
 function animateParticles() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
   particles.forEach((particle, index) => {
     particle.update();
     particle.draw();
-
     if (particle.life <= 0) {
       particles.splice(index, 1);
     }
   });
-
   requestAnimationFrame(animateParticles);
 }
 
 animateParticles();
 
-// Efecto de inclinación 3D en las tarjetas
 const cards = document.querySelectorAll(".info-card");
 
 cards.forEach((card) => {
@@ -159,13 +140,10 @@ cards.forEach((card) => {
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-
     const centerX = rect.width / 2;
     const centerY = rect.height / 2;
-
     const rotateX = (y - centerY) / 10;
     const rotateY = (centerX - x) / 10;
-
     card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
   });
 

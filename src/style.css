@@ -1,5 +1,5 @@
 :root {
-    /* Color Palette - Modern and Professional */
+    
     --primary-color: #6366f1;
     --primary-dark: #4f46e5;
     --primary-light: #818cf8;
@@ -11,12 +11,12 @@
     --card-bg: #1e293b;
     --shadow-color: rgba(0, 0, 0, 0.3);
 
-    /* Typography */
+    
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     font-weight: 400;
 
-    /* Smooth Rendering */
+    
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -42,7 +42,7 @@ body {
     position: relative;
 }
 
-/* Animated Background Elements */
+
 body::before {
     content: "";
     position: fixed;
@@ -90,7 +90,7 @@ body::after {
     z-index: 1;
 }
 
-/* Header Styles */
+
 header {
     background: rgba(30, 41, 59, 0.8);
     backdrop-filter: blur(10px);
@@ -116,14 +116,14 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* Main Content */
+
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 3rem 1rem;
@@ -161,7 +161,7 @@ main {
     animation: fadeInUp 1.2s ease-out;
 }
 
-/* Cookie Section */
+
 .cookie-section {
     text-align: center;
     padding: 3rem 1rem;
@@ -237,7 +237,7 @@ main {
     font-weight: 500;
 }
 
-/* Message Display */
+
 .message {
     font-size: 1.5rem;
     font-weight: 600;
@@ -258,7 +258,7 @@ main {
     transform: translateY(0);
 }
 
-/* Info Section */
+
 .info-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -319,7 +319,7 @@ main {
     z-index: 1;
 }
 
-/* Footer */
+
 footer {
     background: rgba(15, 23, 42, 0.9);
     padding: 2rem;
@@ -333,7 +333,7 @@ footer p {
     font-size: 0.95rem;
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -376,7 +376,7 @@ footer p {
     }
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.5rem;
@@ -429,7 +429,7 @@ footer p {
     }
 }
 
-/* Accessibility */
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -440,20 +440,20 @@ footer p {
     }
 }
 
-/* High Contrast Mode Support */
+
 @media (prefers-contrast: high) {
     .info-card {
         border: 2px solid var(--primary-color);
     }
 }
 
-/* Focus Styles for Accessibility */
+
 button:focus-visible {
     outline: 3px solid var(--secondary-color);
     outline-offset: 4px;
 }
 
-/* Print Styles for SEO */
+
 @media print {
     body {
         background: white;
