@@ -1,0 +1,35 @@
+# robots.txt para Galletatpi
+# Permitir todos los bots de búsqueda
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://galletatpi.netlify.app/sitemap.xml
+
+# Bots específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl-delay para bots más lentos
+User-agent: *
+Crawl-delay: 0
+
+# Reglas específicas para mejorar el SEO
+# No bloquear ningún recurso importante
+Allow: /src/
+Allow: /public/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.svg
+Allow: /*.png
+Allow: /*.jpg
