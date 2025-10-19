@@ -20,7 +20,9 @@ document.querySelector("#app").innerHTML = `
     <section class="cookie-section">
       <div class="cookie-container">
         <button id="cookie-btn" type="button" aria-label="Hacer click en la galleta para ver mensaje de bienvenida" class="cookie-button">
-          <svg class="cookie-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+          <svg class="cookie-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="cookie-title cookie-desc">
+            <title id="cookie-title">Galleta</title>
+            <desc id="cookie-desc">Ilustración de galleta con chips de chocolate de Galletatpi</desc>
             <circle cx="100" cy="100" r="85" fill="#D2691E" stroke="#8B4513" stroke-width="3"/>
             <circle cx="100" cy="100" r="82" fill="#CD853F" opacity="0.3"/>
             <ellipse cx="60" cy="70" rx="8" ry="10" fill="#3E2723"/>
