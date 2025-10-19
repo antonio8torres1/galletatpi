@@ -20,7 +20,33 @@ document.querySelector("#app").innerHTML = `
     <section class="cookie-section">
       <div class="cookie-container">
         <button id="cookie-btn" type="button" aria-label="Hacer click en la galleta para ver mensaje de bienvenida" class="cookie-button">
-          <img src="/cookie.svg" alt="Galleta" class="cookie-icon" />
+          <svg class="cookie-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="85" fill="#D2691E" stroke="#8B4513" stroke-width="3"/>
+            <circle cx="100" cy="100" r="82" fill="#CD853F" opacity="0.3"/>
+            <ellipse cx="60" cy="70" rx="8" ry="10" fill="#3E2723"/>
+            <ellipse cx="85" cy="50" rx="6" ry="8" fill="#3E2723"/>
+            <ellipse cx="120" cy="65" rx="9" ry="11" fill="#3E2723"/>
+            <ellipse cx="140" cy="90" rx="7" ry="9" fill="#3E2723"/>
+            <ellipse cx="70" cy="110" rx="8" ry="10" fill="#3E2723"/>
+            <ellipse cx="100" cy="90" rx="10" ry="12" fill="#3E2723"/>
+            <ellipse cx="130" cy="120" rx="6" ry="8" fill="#3E2723"/>
+            <ellipse cx="95" cy="130" rx="9" ry="11" fill="#3E2723"/>
+            <ellipse cx="115" cy="145" rx="7" ry="9" fill="#3E2723"/>
+            <ellipse cx="60" cy="135" rx="8" ry="10" fill="#3E2723"/>
+            <ellipse cx="145" cy="130" rx="6" ry="8" fill="#3E2723"/>
+            <ellipse cx="155" cy="105" rx="7" ry="9" fill="#3E2723"/>
+            <ellipse cx="50" cy="95" rx="6" ry="8" fill="#3E2723"/>
+            <ellipse cx="110" cy="115" rx="8" ry="10" fill="#3E2723"/>
+            <path d="M 60 50 Q 80 45 100 45 Q 120 45 140 50" fill="none" stroke="#F4A460" stroke-width="4" opacity="0.4"/>
+            <circle cx="75" cy="85" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="125" cy="75" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="80" cy="125" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="140" cy="110" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="55" cy="105" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="160" cy="95" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="105" cy="155" r="2" fill="#A0522D" opacity="0.5"/>
+            <circle cx="135" cy="140" r="2" fill="#A0522D" opacity="0.5"/>
+          </svg>
         </button>
         <p class="cookie-instruction">¡Haz click en la galleta de Galletatpi!</p>
       </div>

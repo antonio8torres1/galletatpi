@@ -1,35 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Galleta</title>
+  <desc>Icono de galleta para Galletatpi</desc>
+
   <!-- Fondo de la galleta -->
   <circle cx="100" cy="100" r="85" fill="#D2691E" stroke="#8B4513" stroke-width="3"/>
 
   <!-- Borde interior más claro -->
   <circle cx="100" cy="100" r="82" fill="#CD853F" opacity="0.3"/>
 
-  <!-- Chips de chocolate - diferentes tamaños y posiciones -->
-  <ellipse cx="60" cy="70" rx="8" ry="10" fill="#3E2723" transform="rotate(-20 60 70)"/>
-  <ellipse cx="85" cy="50" rx="6" ry="8" fill="#3E2723" transform="rotate(15 85 50)"/>
-  <ellipse cx="120" cy="65" rx="9" ry="11" fill="#3E2723" transform="rotate(-30 120 65)"/>
-  <ellipse cx="140" cy="90" rx="7" ry="9" fill="#3E2723" transform="rotate(25 140 90)"/>
-  <ellipse cx="70" cy="110" rx="8" ry="10" fill="#3E2723" transform="rotate(10 70 110)"/>
-  <ellipse cx="100" cy="90" rx="10" ry="12" fill="#3E2723" transform="rotate(-15 100 90)"/>
-  <ellipse cx="130" cy="120" rx="6" ry="8" fill="#3E2723" transform="rotate(20 130 120)"/>
-  <ellipse cx="95" cy="130" rx="9" ry="11" fill="#3E2723" transform="rotate(-25 95 130)"/>
-  <ellipse cx="115" cy="145" rx="7" ry="9" fill="#3E2723" transform="rotate(30 115 145)"/>
-  <ellipse cx="60" cy="135" rx="8" ry="10" fill="#3E2723" transform="rotate(-10 60 135)"/>
-  <ellipse cx="145" cy="130" rx="6" ry="8" fill="#3E2723" transform="rotate(15 145 130)"/>
-  <ellipse cx="155" cy="105" rx="7" ry="9" fill="#3E2723" transform="rotate(-20 155 105)"/>
-  <ellipse cx="50" cy="95" rx="6" ry="8" fill="#3E2723" transform="rotate(25 50 95)"/>
-  <ellipse cx="110" cy="115" rx="8" ry="10" fill="#3E2723" transform="rotate(-5 110 115)"/>
+  <!-- Chips de chocolate -->
+  <ellipse cx="60" cy="70" rx="8" ry="10" fill="#3E2723"/>
+  <ellipse cx="85" cy="50" rx="6" ry="8" fill="#3E2723"/>
+  <ellipse cx="120" cy="65" rx="9" ry="11" fill="#3E2723"/>
+  <ellipse cx="140" cy="90" rx="7" ry="9" fill="#3E2723"/>
+  <ellipse cx="70" cy="110" rx="8" ry="10" fill="#3E2723"/>
+  <ellipse cx="100" cy="90" rx="10" ry="12" fill="#3E2723"/>
+  <ellipse cx="130" cy="120" rx="6" ry="8" fill="#3E2723"/>
+  <ellipse cx="95" cy="130" rx="9" ry="11" fill="#3E2723"/>
+  <ellipse cx="115" cy="145" rx="7" ry="9" fill="#3E2723"/>
+  <ellipse cx="60" cy="135" rx="8" ry="10" fill="#3E2723"/>
+  <ellipse cx="145" cy="130" rx="6" ry="8" fill="#3E2723"/>
+  <ellipse cx="155" cy="105" rx="7" ry="9" fill="#3E2723"/>
+  <ellipse cx="50" cy="95" rx="6" ry="8" fill="#3E2723"/>
+  <ellipse cx="110" cy="115" rx="8" ry="10" fill="#3E2723"/>
 
-  <!-- Brillo/highlight para dar dimensión -->
-  <path d="M 60 50 Q 80 45, 100 45 Q 120 45, 140 50"
+  <!-- Brillo -->
+  <path d="M 60 50 Q 80 45 100 45 Q 120 45 140 50"
         fill="none"
         stroke="#F4A460"
         stroke-width="4"
-        opacity="0.4"
-        stroke-linecap="round"/>
+        opacity="0.4"/>
 
-  <!-- Textura de la galleta (puntos pequeños) -->
+  <!-- Textura -->
   <circle cx="75" cy="85" r="2" fill="#A0522D" opacity="0.5"/>
   <circle cx="125" cy="75" r="2" fill="#A0522D" opacity="0.5"/>
   <circle cx="80" cy="125" r="2" fill="#A0522D" opacity="0.5"/>
